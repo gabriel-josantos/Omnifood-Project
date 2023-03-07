@@ -4,7 +4,8 @@
 
 <p align="left">Esse projeto consite de uma aplicação Front end estatica de uma start-up que oferece entregas de pratos culinarios personalizados </p>
 
-<p align="left">Este projeto foi um projeto de aprendizagem de css, e html, alem de conceitos de web design. Posteriormente foi utilizado react para refatora-lo</p>
+<p align="left">Este projeto foi um projeto de aprendizagem de css, e html, alem de conceitos de web design. Posteriormente foi utilizado react para refatora-lo.
+A aplicação se encontra em : https://omnifood-gabriel1.netlify.app/</p>
 
 ### 🛠 Tecnologias
 
