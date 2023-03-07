@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 
-import "./Hero.css";
+import "../css/Hero.css";
 
 function Hero() {
   const numArr = [1, 2, 3, 4, 5, 6];
@@ -45,7 +45,7 @@ function Hero() {
               <source srcSet="img/hero.webp" type="image/webp" />
               <source srcSet="img/hero.png" type="image/png" />
               <img
-                src="img/hero.png"
+                src="img/hero.webp"
                 alt="Woman enjoying food, meals in storage container, and food bowls on a table"
                 className="hero-img"
               />

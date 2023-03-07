@@ -36,7 +36,7 @@
       rgba(235, 153, 76, 0.35),
       rgba(230, 125, 34, 0.35)
     ),
-    url("../eating.jpg");
+    url("../../helpers/eating.jpg");
   background-size: cover;
   background-position: center;
 }

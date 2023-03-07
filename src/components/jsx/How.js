@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "./How.css";
+import "../css/How.css";
 
 function How() {
   return (

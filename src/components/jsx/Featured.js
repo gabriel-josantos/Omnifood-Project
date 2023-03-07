@@ -1,4 +1,4 @@
-import "./Featured.css";
+import "../css/Featured.css";
 
 function Featured() {
   return (

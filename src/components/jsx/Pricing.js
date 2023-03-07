@@ -1,4 +1,4 @@
-import "./Pricing.css";
+import "../css/Pricing.css";
 
 function Pricing() {
   return (

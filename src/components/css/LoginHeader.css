@@ -1,0 +1,18 @@
+.user-header-box {
+  padding: 1.2rem 2.4rem;
+  background-color: #e67e22;
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  border-radius: 100px;
+
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.user-name {
+  text-decoration: none;
+  color: #fff;
+}

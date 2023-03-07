@@ -1,8 +1,22 @@
-import "./Cta.css";
+import { useRef } from "react";
+
+import "../css/Cta.css";
 
 function Cta() {
+  const nameRef = useRef();
+  const mailRef = useRef();
+
+  function addUserHandler(e) {
+    e.preventDefault();
+
+    const name = nameRef.current.value;
+    const mail = mailRef.current.value;
+    nameRef.current.value = "";
+    mailRef.current.value = "";
+  }
+
   return (
-    <section className="section-cta" id="cta">
+    <section className="section-cta" id="try">
       <div className="container">
         <div className="cta">
           <div className="cta-text-box">
@@ -12,13 +26,15 @@ function Cta() {
               eating well today. You can cancel or pause anytime. And the first
               meal is on us!
             </p>
-            <form className="cta-form" action="#">
+            <form onSubmit={addUserHandler} className="cta-form">
               <div>
                 <label htmlFor="full-name">Full Name</label>
                 <input
                   id="full-name"
                   type="text"
                   placeholder="John Smith"
+                  name="full-name"
+                  ref={nameRef}
                   required
                 />
               </div>
@@ -28,6 +44,8 @@ function Cta() {
                   id="email"
                   type="email"
                   placeholder="me@example.com"
+                  name="email"
+                  ref={mailRef}
                   required
                 />
               </div>
@@ -36,7 +54,7 @@ function Cta() {
                 <label htmlFor="select-where">
                   Where did you hear from us?
                 </label>
-                <select id="select-where" required>
+                <select id="select-where" name="select-where" required>
                   <option value="">Please choose one option</option>
                   <option value="friends">Friends and family</option>
                   <option value="youtube">Youtube video</option>

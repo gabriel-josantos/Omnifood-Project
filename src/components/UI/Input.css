@@ -1,0 +1,6 @@
+.input-correct {
+  border-bottom: 2px solid green !important;
+}
+.input-incorrect {
+  border-bottom: 2px solid red !important;
+}
